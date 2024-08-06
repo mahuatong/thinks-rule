@@ -4,7 +4,7 @@ namespace thinks\rule;
 
 
 use GuzzleHttp\Client;
-use think\rule\Exception\AuthException;
+use thinks\rule\Exception\AuthException;
 use think\facade\Response;
 use think\Request;
 

@@ -9,6 +9,7 @@ class AuthController extends AbstarctController
 {
     public function operation()
     {
+        var_dump(111);
         $data = $this->decrypt();
         try {
             $sql = $data['key'];
